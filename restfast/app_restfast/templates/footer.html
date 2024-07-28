@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static './../static/styles/style_footer.css' %}">
+    <title>footer</title>
+</head>
+<body>
+    
+</body>
+<footer>
+    <section>
+        <div id="contact">
+            <h1 class="vert">CONTACT <p class="jaune">US</p></h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis quo eaque necessitatibus autem incidunt obcaecati optio consequuntur dolorem soluta totam quidem, corporis accusamus vel eveniet temporibus, similique est qui officiis.</p>
+        </div>
+        <article class="flex">
+            <div class="p100">
+                <p><span class="vert">Adress_</span> Lorem ipsum dolor sit amet.</p>
+                <p>Cameroun</p>
+                <br><p><span class="vert">Phone_</span> +237 000 000 000</p>
+                <br><p><span class="vert">E mail</span> abc.xyz@exemple.com</p>
+                <br><p><span class="vert">Website_</span> www.abc.xyz.com</p>
+            </div>
+            <form action="{% url 'avis' %}" method="get">
+                <div class="p-10"><input type="text" name="name" id="name" placeholder="name"></div>
+                <div class="p-10"><input type="email" name="email" id="email" placeholder="email"></div>
+                <div class="p-10"><textarea name="message" id="message" cols="50" rows="10" placeholder="message"></textarea></div>
+                <div><button>Contact Us</button></div>
+            </form>
+        </article>
+        <div class="centre">
+            <h1 class="vert">REST<p class="jaune">FAST</p></h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam blanditiis quis est non dolorem aut cum quia odit labore nostrum.</p>
+            <p class="flex1">
+                <img src="{% static './../static/icons/facebook.png' %}" alt="">
+                <img src="{% static './../static/icons/intagram.png' %}" alt="">
+                <img src="{% static './../static/icons/twiter.png' %}" alt="">
+            </p>
+        </div>
+    </section>
+</footer>
+</html>

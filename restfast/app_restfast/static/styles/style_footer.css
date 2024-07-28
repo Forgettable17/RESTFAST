@@ -1,0 +1,73 @@
+footer {
+    color: beige;
+}
+
+.vert {
+    color: green;
+}
+
+.jaune {
+    color: yellow;
+}
+
+.p100 {
+    margin: 0px 100px;
+}
+
+div#contact {
+    margin: 0px 100px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+div  h1  p {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+    gap: 100px;
+}
+
+.p-10 {
+    padding-bottom: 10px;
+}
+
+input#name {
+    height: 40px;
+    width: 235px;
+    background-color: #191d28;
+    color: white;
+    border-radius: 7px;
+}
+
+input#email {
+    height: 40px;
+    width: 235px;
+    background-color: #191d28;
+    color: white;
+    border-radius: 7px;
+}
+
+textarea#message {
+    background-color: #191d28;
+    border-radius: 7px;
+}
+
+button {
+    background-color: #8fad0a;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.centre {
+    text-align: center;
+    justify-content: center;
+}
+
+.flex1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}

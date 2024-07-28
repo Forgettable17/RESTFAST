@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    background-color: #111827;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    background: #020617;
+}
+nav ol {
+    display: flex;
+    gap: 20px;
+    text-align: right;
+    list-style: none;
+    font-size: x-large;
+}
+
+ol li a {
+    text-decoration: none;
+    color: #65831e;
+}
+
+@keyframes ex-animation {
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
+
+a {
+    animation-name: ex-animation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+a:hover{
+    color: #e6e632;
+    padding-bottom: 1px;
+    border-bottom: solid green;
+}
+
+.jaune {
+    color: yellow;
+}
+
+.vert {
+    color: green;
+}
